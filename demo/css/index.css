@@ -1,0 +1,298 @@
+.container ul{
+    background-color: #f0f0f0;
+}
+.zdd-search-form{
+    background: #f0f0f0;
+    height: 28px;
+    line-height: 28px;
+    padding: 8px 68px 8px 11px;
+    position: relative;
+    z-index: 2;
+
+}
+
+.nav.zdd-search{
+    background-color: #FFFFFF;
+}
+.zdd-search-form .search-box{
+    border: 1px solid #CACACA;
+    border-radius: 8px;
+    padding-left: .7rem;
+    height: 26px;
+    line-height: 26px;
+    position: relative;
+    background-color: #fff;
+}
+.zdd-search-form button{
+    right: 11px;
+    position: absolute;
+    top: 8px;
+    border-radius: 8px;
+    width: 3rem;
+    height: 26px;
+    line-height: 26px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    border: 1px solid #2abfc9;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    box-sizing: content-box;
+    background-color: #2abfc9;
+}
+.zdd-search-form input{
+    width: 95%;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    outline: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    border: none;
+    opacity: 1;
+
+}
+.zdd-questions li{
+    background-color: #FFFFFF;
+    margin-bottom: 9px;
+    padding: 14px;
+}
+.zdd-questions li p{
+    font-size: 15px;
+    color: #3f3f3f;
+}
+.zdd-questions li span.user{
+    color: #999;
+    font-size: 14px;
+    margin-bottom: .5rem;
+}
+
+.zdd-questions li .answer{
+    margin-top: 5px;
+    position: relative;
+}
+
+.zdd-questions li .answer .face{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: .675rem;
+}
+
+.zdd-questions li .answer .face img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.zdd-questions li .listen{
+    display: inline-block;
+}
+
+.zdd-btn-answer::before ,.zdd-btn-answer-1yuan::before{
+    border-width: 10px;
+    margin-top: -4px;
+}
+
+*::before {
+    box-sizing: border-box;
+}
+
+.zdd-btn-answer::before,.zdd-btn-answer-1yuan::before{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent #f65177 transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 6px;
+    content: " ";
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 100%;
+    top: 15px;
+    width: 0;
+
+}
+.zdd-btn-answer-1yuan::before{
+    border-color: transparent #2abfc9 transparent transparent;
+}
+
+.zdd-btn-answer, .zdd-btn-answer-1yuan {
+    width:90px;
+    background: #f65177 none repeat scroll 0 0;
+    border: 1px solid #f65177;
+    border-radius: 5px;
+    color: #fff;
+    margin: 5px 0 0 0;
+    padding: 5px 10px 5px 35px;
+    position: relative;
+    display: block;
+
+}
+.zdd-btn-answer-1yuan{
+    background: #2abfc9 none repeat scroll 0 0;
+    border: 1px solid #2abfc9;
+}
+
+.zdd-btn-answer .voice-icon, .zdd-btn-answer-1yuan .voice-icon{
+    position:absolute;
+    width: 14px;
+    height: 18px;
+    left: 10px;
+    top:8px;
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Njg0NzRGRkYwRjlDMTFFNjlGQ0JDNTc0Q0Q0RDBFQ0MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Njg0NzRGRkUwRjlDMTFFNjlGQ0JDNTc0Q0Q0RDBFQ0MiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RUQwMTVFMDAxMzU0MTFFNUIyMEZDMTNGRTUyOURCRkMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RUQwMTVFMDExMzU0MTFFNUIyMEZDMTNGRTUyOURCRkMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5ESn0LAAAFGklEQVR42uycaWhVRxTHs7xEo3VLatoaF0RxCUSLVLRiEoy2iIIiBSlKYhFpLCi0tfjFNkXEgl2ILaFSNFFT+0GDW1Ap2FoUFTcqLlCMIVVjI7bUNVqbxef/wBRSeHNm5ry5jxvzBn5f7rn87+T/Zuaee2ZIajQaTUm2lJS0pAVJI5JGdGcjMkBvkN5TjRgIjoM28I/i0yAMSQ35W2MzWBbj+i/gLXC3pxhxC7ysiTWAN8CNnjA12pjYGHASjO4JRuwwxPPAYTD0eZ8amWALKDXcdxFMA4+e56lRBspBO3PfBFAb9hGRplb410CzGu73BDqzQD3IYu5ZCapEvSQjAiQCDkb/31pAsVCvEDyO6tsTMEaiHbQRizQdbgNLhZrzQCdjxjGQ6qob9BrxOpMyV4P3BJo0PSqYeCF4O2xT4+OouZUKdOkXP8xoXgeZYZoar4A7BiP+BdME2sPBA0Z3eZiMIApAk8GMG+BFgfYqRvMaSA+TEUQ2OGowo1agS8O/kdFcEIQRaWAGWAxGCTo9AJw2mDFLoPsOo/ejbyNywNkuD3gKNrgMPcVL4A+m4+cFr74MRrMD5Po0okbzoP2uqzOYroyMezh3oSLeRdP2QS3Mg3YKfsVvDQmRqxEjGb16n0Y0Gub2KseODwL3GL18gRlnNFqtNlPYNrPcZoivdyyQ3DV8HC0SZJwHNNf7gom+Mst0w3CmttfxFxwM2jVaFwQjoojpW7nvPIJblGgBHO+od4jRy3XUylJviVjta98fXevAIV1tAyxx1Nsl+GDTNSr1N2piY31XqKiKswJ0auILHPVOMLECwTpxRXN9WBClut/BHqaynO2gRb/gfU1spLD8H6vlBlWz3MvEJjqOsGuamKQy/afmenZQRvzKxHIdtXS7VX0E/eqQ/p1SI1qZ2AuOWrqpkeV5QygQI/oxsQeetFoF/eqdaCMmCxYsXdPtbf4t6JduFD0JyoiFmutPwQUHnQwmNZds7uZort8Jwgh6K8zVxC6Dhw5ak9S2Xqz2m6BveZrrf/k2IgK+U1lkrFbnqDeXiZ0XGDFKc73ZpxH0x28CUzRxyja/d1yfypgF19WIXkwS1mTzC9s0yg3o9Mo85h7ahL3u0PESMEIT+4nJCbiUPOKYejsZQXP4lCHlfWjYfYrVPmFidYJpMVWYAFpPjXEWeT/tQt906PQcUMRkmvUCI0qYKXvJhxEDDfGNYLtDhynz/IaJbwWPBevDTE3sXIrFARIbI7iTa/QG+dCx018xqzslPl8KRsOboL8m9rPd55/dvkFDjHMI7wvKae8ayn1fCHfSdjOaU200bE/M0GfsB2plvqWmwxXHX22+qmOkMan5eOYjTNeGqE/5DI1mnvrcj3tE+GCZ4XAHtflC7c99jLCgDaBKdZ3FGYlNcRw7aGV0x4bBiBGg2cKE44Jtw/+o9rEBHLQROyxMuKRGjUS/2KBdEhYjrlqYMESoPcgw2o6E6TAZV0+gd3sxaBHoRlQKPpQpCK92Vg1wRMyO8aagnai16vylRJO2Hn8wjLSqMJ6znANOqPNM+8CrcWj1VRpco7Na/SX6YT+U3rWSRbWOfOaedvUhdyqRxdtENSoGfQbOGEygtkJqQiIzSynlUbu2Pt5nhX1ELLa4ZwNYE++DIiE3IpOJ0dbBR6DSx4PCPiIOaq7fVjWISm9PCvka0UsdSeraatS5T6/P6i6vT6o1pKtXZGcgr6fkv03oHmtE0ohEt2cCDABCGNMXhg0NEwAAAABJRU5ErkJggg==);
+    background-size:14px 18px;
+}
+.zdd-questions li .answer .listened{
+    position:absolute;
+    right:0;
+    top:12px;
+    /*font-size: ;*/
+    color: #f65177;
+}
+.weui_btn.zdd-load-more{
+    margin: 20px auto 80px;
+    width: 200px;
+    height:44px;
+    border-radius: 5px;
+    line-height: 44px;
+    background-color: #f65177;
+    color: #ffffff;
+    text-align: center;
+
+}
+.zdd-search-modal{
+    position: absolute;
+    display: none;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+
+.voice-info{
+    display: inline-block;
+}
+
+/*新晋榜,才华榜,搜索结果*/
+
+/*新晋榜*/
+.zdd-new-start-list{
+    background-color: #FFFFFF;
+}
+.zdd-new-start-list li{
+    display: block;
+    background-color: #FFFFFF;
+}
+
+
+.new-star {
+    position: relative;
+    /*padding: 13px 10px;*/
+    display: -webkit-box;
+    /*border-bottom: 1px solid #e4e4e4;*/
+}
+
+.zdd-new-start-list .item{
+    background-color: #FFFFFF;
+    padding: 14px;
+    border-bottom: #E5E5E5 solid 1px;
+}
+
+.pic-item {
+    padding-top: 0;
+    height: 60px;
+}
+
+.pic-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.content-item {
+    -webkit-box-flex: 1;
+    padding-left: 9px;
+}
+
+.item-name {
+    line-height: 15px;
+    font-size: 15px;
+}
+
+.item-name span {
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    color: #979799;
+}
+
+
+.item-title  {
+    -webkit-box-flex: 1;
+    padding-left: 40px;
+    padding-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.new-star-desc {
+    margin-top: 2px;
+    font-size: 12px;
+}
+.new-star .new-star-desc-content, .new-star .item-name, .new-star .new-star-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item a:visited .item-name{
+    color:#42414c;
+}
+.item a:visited .new-star-title{
+    color:#3f3f3f;
+}
+.item a:visited .new-star-desc-content{
+    color:#7a7d83
+}
+.item-name span.star{
+    display:inline-block;
+    background-color: #aaaaaa;
+    height: 20px;
+    width:71px;
+    border-radius:10px;
+    color: #ffffff;
+    font-size:10px;
+    line-height: 20px;
+    text-align: center;
+}
+.item-name span.star-name{
+    font-size: 15px;
+}
+
+.new-star-desc-content .money{
+    color:#f65177;
+    margin-right: 1em;
+}
+
+
+
+
+
+
+
+
+
+

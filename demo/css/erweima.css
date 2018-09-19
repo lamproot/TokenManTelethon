@@ -1,0 +1,8 @@
+/*Œ“*/
+.ma_box .ma_center{padding:50px 12px 0;}
+.ma_box .ma_center .photo{width:60px;height:60px;display:block;margin:0 auto;border-radius:50%;}
+.ma_box .ma_center strong{margin-top:5px;color:#494c53;font-size:15px;font-weight:normal;display:block;text-align:center;}
+.ma_box .ma_center .title{font-size:13px;color:#494c53;text-align:center;}
+.ma_box .ma_center .describe{margin-top:13px;font-size:15px;color:#494c53;}
+.ma_box .ma_center .ma{display:block;margin:26px auto 15px;width:159px;height:159px;padding:10px;background:#f0f0f0;}
+.ma_box .ma_center .hint{color:#32c8c7;font-size:14px;text-align:center;}

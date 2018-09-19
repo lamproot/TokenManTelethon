@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0 minimal-ui">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/weui.css"/>
+    <link rel="stylesheet" href="css/zdd_common.css"/>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body ontouchstart>
+<div class="container" id="container">
+    <section>
+        <form class="zdd-search-form" action="/search">
+            <div class="search-box">
+                <input name="key" maxlength="30" placeholder="输入昵称、头衔关键字找人">
+            </div>
+            <button type="submit">搜索</button>
+        </form>
+    </section>
+    <section id="zdd-new-star" class="bd">
+        <nav class="nav zdd-search">
+            <div class="nav-item"><a href="首页.html">问题榜</a></div>
+            <div class="nav-item"><a href="新晋榜.html">新晋榜</a></div>
+            <div class="nav-item act"><a href="才华榜.html">才华榜</a></div>
+        </nav>
+        <ul id="zdd-new-star-list" class="zdd-new-start-list">
+
+            <li class="item">
+                <a href="">
+                    <div class="new-star">
+                        <div class="pic-item">
+                            <img src="http://p1.meituan.net/deal/41c424af1425a49cfeb4621868486c2744295.jpg%40220w_164h_1e_1c_1l_80q"
+                                 class="pic" alt="" width="100%">
+                        </div>
+                        <div class="content-item">
+                            <div class="item-name"> <span class="star">15分钟名人</span><span class="star-name">陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼</span></div>
+                            <div class="new-star-desc">
+                                <p class="new-star-title">中国著名杂志摄影师</p>
+                                <p class="new-star-desc-content">回答了18个问题,148人偷偷听</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            <li class="item">
+                <a href="">
+                    <div class="new-star">
+                        <div class="pic-item">
+                            <img src="http://p1.meituan.net/deal/41c424af1425a49cfeb4621868486c2744295.jpg%40220w_164h_1e_1c_1l_80q"
+                                 class="pic" alt="" width="100%">
+                        </div>
+                        <div class="content-item">
+                            <div class="item-name">陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼陈曼</div>
+                            <div class="new-star-desc">
+                                <p class="new-star-title">中国著名杂志摄影师</p>
+                                <p class="new-star-desc-content"><span class="money">已赚$2234</span><span class="answer">584个回答</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+        <a class="weui_btn zdd-load-more">
+            加载更多
+        </a>
+
+    </section>
+
+
+
+</div>
+
+
+<div class="zdd-search-modal"></div>
+
+<!-- loading toast -->
+<div id="loadingToast" class="weui_loading_toast" style="display:none;">
+    <div class="weui_mask_transparent"></div>
+    <div class="weui_toast">
+        <div class="weui_loading">
+            <div class="weui_loading_leaf weui_loading_leaf_0"></div>
+            <div class="weui_loading_leaf weui_loading_leaf_1"></div>
+            <div class="weui_loading_leaf weui_loading_leaf_2"></div>
+            <div class="weui_loading_leaf weui_loading_leaf_3"></div>
+            <div class="weui_loading_leaf weui_loading_leaf_4"></div>
+            <div class="weui_loading_leaf weui_loading_leaf_5"></div>
+            <div class="weui_loading_leaf weui_loading_leaf_6"></div>
+            <div class="weui_loading_leaf weui_loading_leaf_7"></div>
+            <div class="weui_loading_leaf weui_loading_leaf_8"></div>
+            <div class="weui_loading_leaf weui_loading_leaf_9"></div>
+            <div class="weui_loading_leaf weui_loading_leaf_10"></div>
+            <div class="weui_loading_leaf weui_loading_leaf_11"></div>
+        </div>
+        <p class="weui_toast_content">数据加载中</p>
+
+    </div>
+</div>
+<div class="weui_tab">
+    <div class="weui_navbar">
+        <a href="javascript:;" class="weui_navbar_item weui_bar_item_on">
+            排行榜
+        </a>
+        <a href="javascript:;" class="weui_navbar_item">
+            我问
+        </a>
+        <a href="javascript:;" class="weui_navbar_item">
+            我答
+        </a>
+        <a href="javascript:;" class="weui_navbar_item">
+            收听
+        </a>
+        <a href="javascript:;" class="weui_navbar_item">
+            我
+        </a>
+    </div>
+</div>
+<!--zepto库-->
+<script src="js/vendor/zepto.min.js"></script>
+<!--路由库-->
+<!--<script src="js/router.min.js"></script>-->
+<!--去掉移动端click300毫秒延迟-->
+<script src="js/vendor/fastclick.js"></script>
+<!--页面代码-->
+<script src="js/tmp.js"></script>
+</body>
+</html>

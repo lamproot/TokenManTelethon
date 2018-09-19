@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0 minimal-ui">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes">
+    <title></title>
+    <link rel="stylesheet" href="css/weui.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/jgs_wowen2.css"/>
+</head>
+
+<body ontouchstart>
+<div class="container" id="container">
+    <div class="jgs_wowen2">
+        <div class="ask_people">
+			<var class="money">￥10</var>
+			<a href="##"><img src="img/touxiang.jpg"/></a>
+			<strong>陈漫</strong>
+			<p class="problem">中国知名摄影师中国知名摄影师中国知名摄影师中国知名摄影师中国知名摄影师</p>
+			<p class="p2">1分钟前</p>
+		</div>
+		<div class="waiting">等待回答，若48小时之内未回复，将全额退款</div>
+		<div class="start_people clearfix">
+			<a href="##"><img src="img/touxiang.jpg"/></a>
+			<strong>陈漫</strong>
+			<var>12人收听</var>
+			<p>中国知名摄影师中国知名摄影师中国知</p>
+		</div>
+    </div>
+	<div class="jgs_worth">
+		<div class="title">值得一听</div>
+		<p>的撒娇是打火机和三大打算的撒娇是打火机和三大打算的撒娇是打火机和三大打算</p>
+		<div class="data">
+			<span>金贵升 | </span>全球富豪第一人，连续获得者
+		</div>
+		<div class="record"><span>1天前回答</span><var>6人偷偷听</var></div>
+	</div>
+</div>
+<div class="weui_tab">
+	<div class="weui_navbar">
+		<a class="weui_navbar_item">
+			排行榜
+		</a>
+		<a class="weui_navbar_item weui_bar_item_on">
+			我问
+		</a>
+		<a class="weui_navbar_item">
+			我答
+		</a>
+		<a class="weui_navbar_item">
+			收听
+		</a>
+		<a class="weui_navbar_item">
+			我
+		</a>
+	</div>
+</div>
+<!--zepto库-->
+<script src="js/vendor/zepto.min.js"></script>
+<!--路由库-->
+<!--<script src="js/router.min.js"></script>-->
+<!--去掉移动端click300毫秒延迟-->
+<script src="js/vendor/fastclick.js"></script>
+<!--页面代码-->
+<script src="js/tmp.js"></script>
+</body>
+</html>
+<script>
+ $('.weui_navbar').on('click', '.weui_navbar_item', function () {
+                $(this).addClass('weui_bar_item_on').siblings('.weui_bar_item_on').removeClass('weui_bar_item_on');
+            });
+</script>

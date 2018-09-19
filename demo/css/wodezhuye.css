@@ -1,0 +1,20 @@
+/*Œ“*/
+
+.my_box .my_top{padding:16px 0 21px;background:white;border-bottom:1px #e5e5e5 solid;}
+.my_box .my_top p{color:#7a7d83;font-size:14px;line-height:24px;text-align:center;}
+.my_box .my_top img{width:105px;height:105px;display:block;margin:16px auto 0;padding:7.5px;background-color:#f0f0f0;}
+.my_box .my_center{background:white;padding:18px 12px 11px;margin-top:9px;border-top:1px #e5e5e5 solid;border-bottom:1px #e5e5e5 solid;}
+.my_box .my_center img{width:60px;height:60px;display:block;margin:0 auto;border-radius:50%;}
+.my_box .my_center strong{margin-top:5px;color:#494c53;font-size:15px;font-weight:normal;display:block;text-align:center;}
+.my_box .my_center .title{font-size:13px;color:#494c53;text-align:center;}
+.my_box .my_center .describe{margin-top:13px;font-size:15px;color:#494c53;}
+.my_box .my_center .number{margin-top:6px;color:#92959a;font-size:12px;}
+
+.my_bottom{background:white;padding:0 12px;margin-top:9px;border-top:1px #e5e5e5 solid;border-bottom:1px #e5e5e5 solid;}
+.my_bottom .my_people{padding:12px 0 10px 0;border-bottom:1px #e5e5e5 solid;}
+.my_bottom .my_people .money{float:right;margin-top:9px;color:#f65177;font-size:15px;font-style:normal;}
+.my_bottom .my_people a{float:left;margin-right:10px;}
+.my_bottom .my_people a img{width:40px;height:40px;border-radius:50%;display: block;}
+.my_bottom .my_people .problem{margin-top:12px;color:#494c53;font-size:15px;}
+.my_bottom .my_people .p2{clear: both;color:#92959a;font-size:14px;display:block;}
+.my_bottom .my_people .p2 var{float:right;font-style:normal;}

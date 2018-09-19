@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0 minimal-ui">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes">
+    <title></title>
+    <link rel="stylesheet" href="css/weui.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/jgs_woda1.css"/>
+</head>
+
+<body ontouchstart>
+<div class="container" id="container">
+	<nav class="nav zdd-search">
+		<div class="nav-item"><a href="woda1.html">待回答</a></div>
+		<div class="nav-item act"><a href="woda2.html">全部</a></div>
+	</nav>
+	<div class="has2">
+		<div class="jgs_woda1">
+			<div class="ask_people">
+				<var class="money">￥10<em>已回答</em></var>
+				<a href="##"><img src="img/touxiang.jpg"/></a>
+				<strong>陈漫</strong>
+				<p class="problem">中国知名摄影师中国知名摄影师中国知名摄影师中国知名摄影师中国知名摄影师</p>
+				<p class="p2"><span>1分钟前</span><var>12人偷听，1人呵呵呵</var></p>
+			</div>
+			<div class="ask_people">
+				<var class="money">￥10<em>已回答</em></var>
+				<a href="##"><img src="img/touxiang.jpg"/></a>
+				<strong>陈漫</strong>
+				<p class="problem">中国知名摄影师中国知名摄影师中国知名摄影师中国知名摄影师中国知名摄影师</p>
+				<p class="p2"><span>1分钟前</span></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="weui_tab">
+	<div class="weui_navbar">
+		<a class="weui_navbar_item">
+			排行榜
+		</a>
+		<a class="weui_navbar_item">
+			我问
+		</a>
+		<a class="weui_navbar_item weui_bar_item_on">
+			我答
+		</a>
+		<a class="weui_navbar_item">
+			收听
+		</a>
+		<a class="weui_navbar_item">
+			我
+		</a>
+	</div>
+</div>
+<!--zepto库-->
+<script src="js/vendor/zepto.min.js"></script>
+<!--路由库-->
+<!--<script src="js/router.min.js"></script>-->
+<!--去掉移动端click300毫秒延迟-->
+<script src="js/vendor/fastclick.js"></script>
+<!--页面代码-->
+<script src="js/tmp.js"></script>
+</body>
+</html>
+<script>
+ $('.weui_navbar').on('click', '.weui_navbar_item', function () {
+                $(this).addClass('weui_bar_item_on').siblings('.weui_bar_item_on').removeClass('weui_bar_item_on');
+            });
+</script>

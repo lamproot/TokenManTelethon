@@ -1,0 +1,45 @@
+/*我答*/
+.has2{background-color:#f0f0f0;}
+.jgs_woda1 .ask_people{background:white;padding:12px 12px 10px;margin-bottom:9px;border-bottom:1px #e5e5e5 solid;}
+.jgs_woda1 .ask_people .money{float:right;margin-top:9px;color:#f65177;font-size:15px;font-style:normal;}
+.jgs_woda1 .ask_people .money em{color:#32c8c7;font-style:normal;margin-left:12px;}
+.jgs_woda1 .ask_people a{float:left;margin-right:10px;}
+.jgs_woda1 .ask_people a img{width:40px;height:40px;border-radius:50%;display: block;}
+.jgs_woda1 .ask_people strong{color:#494c53;font-size:15px;font-weight:normal;margin-top:9px;display:block;}
+.jgs_woda1 .ask_people .problem{margin-top:12px;color:#494c53;font-size:15px;}
+.jgs_woda1 .ask_people .p2{clear: both;color:#92959a;font-size:14px;display:block;}
+.jgs_woda1 .ask_people .p2 var{float:right;font-style:normal;}
+
+/*顶部导航 start*/
+.nav .nav-item a, .nav .nav-item a:visited{
+    color: #7a7d83;
+}
+nav.nav{
+    display: -webkit-box;
+    border-bottom: 1px solid #e5e5e5;
+}
+.nav .nav-item{
+    /*box-sizing: border-box;*/
+    /*-moz-box-flex:1.0; !* Firefox *!*/
+    -webkit-box-flex:1.0; /* Safari and Chrome */
+    /*box-flex:1.0;*/
+    text-align: center;
+    margin-bottom: -1px;
+    height:49px;
+    line-height: 49px;
+}
+
+
+
+.nav .nav-item.act{
+    border-bottom: 2px solid #32c8c7;
+}
+.nav .nav-item.act a{
+    color: #32c8c7;
+
+}
+
+.nav .nav-item a{
+    display: block;
+}
+/*顶部导航 end*/

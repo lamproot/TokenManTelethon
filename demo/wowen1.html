@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0 minimal-ui">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes">
+    <title></title>
+    <link rel="stylesheet" href="css/weui.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/jgs_wowen1.css"/>
+</head>
+
+<body ontouchstart>
+<div class="container" id="container">
+    <div class="jgs_wowen1">
+        <img src="images/icon-wu.png"/>
+        <p>还木有问题哦~</p>
+        <a href="javascript:;" class="bt1">去提问</a>
+    </div>
+</div>
+
+<div class="weui_tab">
+	<div class="weui_navbar">
+		<a class="weui_navbar_item">
+			排行榜
+		</a>
+		<a class="weui_navbar_item weui_bar_item_on">
+			我问
+		</a>
+		<a class="weui_navbar_item">
+			我答
+		</a>
+		<a class="weui_navbar_item">
+			收听
+		</a>
+		<a class="weui_navbar_item">
+			我
+		</a>
+	</div>
+</div>
+<!--zepto库-->
+<script src="js/vendor/zepto.min.js"></script>
+<!--路由库-->
+<!--<script src="js/router.min.js"></script>-->
+<!--去掉移动端click300毫秒延迟-->
+<script src="js/vendor/fastclick.js"></script>
+<!--页面代码-->
+<script src="js/tmp.js"></script>
+</body>
+</html>
+<script>
+ $('.weui_navbar').on('click', '.weui_navbar_item', function () {
+                $(this).addClass('weui_bar_item_on').siblings('.weui_bar_item_on').removeClass('weui_bar_item_on');
+            });
+</script>

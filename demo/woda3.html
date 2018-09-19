@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0 minimal-ui">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes">
+    <title></title>
+    <link rel="stylesheet" href="css/weui.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/jgs_woda3.css"/>
+</head>
+
+<body ontouchstart>
+<div class="container" id="container">
+	<div class="jgs_fill">
+		<div class="jgs_fill_box">
+			<div class="photo">
+				<img src="img/touxiang.jpg"/>
+				<strong>奥巴马他祖宗</strong>
+			</div>
+			<div class="text">
+				<p>你的头衔</p>
+				<textarea class="textarea1" onkeyup="checkLength(this);" placeholder="机遇运营经理；人大硕士；心里咨询师..."></textarea>
+			</div>
+			<div class="words">还可以输入<span id="sy">20</span>个字</div>
+			<div class="text">
+				<p>介绍一下你自己吧</p>
+				<textarea class="textarea2" onkeyup="checkLength2(this);" placeholder="关于这些，尽情问我；投资理财、迎娶白富美；如何优雅的参加前任婚礼；和异性出差时如何管理自我冲动......或者给你唱个晚安小曲吧。"></textarea>
+			</div>
+			<div class="words">还可以输入<span id="sy2">100</span>个字</div>
+		</div>
+		<div class="price">
+			<p>向我提问需要支付<input type="text" placeholder="1-500"/>元</p>
+			<button>开通我的【芬达】</button>
+		</div>
+	</div>
+</div>
+<div class="weui_tab">
+	<div class="weui_navbar">
+		<a class="weui_navbar_item">
+			排行榜
+		</a>
+		<a class="weui_navbar_item">
+			我问
+		</a>
+		<a class="weui_navbar_item">
+			我答
+		</a>
+		<a class="weui_navbar_item">
+			收听
+		</a>
+		<a class="weui_navbar_item weui_bar_item_on">
+			我
+		</a>
+	</div>
+</div>
+<!--zepto库-->
+<script src="js/vendor/zepto.min.js"></script>
+<!--路由库-->
+<!--<script src="js/router.min.js"></script>-->
+<!--去掉移动端click300毫秒延迟-->
+<script src="js/vendor/fastclick.js"></script>
+<!--页面代码-->
+<script src="js/tmp.js"></script>
+</body>
+</html>
+<script>
+ $('.weui_navbar').on('click', '.weui_navbar_item', function () {
+                $(this).addClass('weui_bar_item_on').siblings('.weui_bar_item_on').removeClass('weui_bar_item_on');
+            });
+</script>
+<script type="text/javascript">
+function checkLength(which) {
+	var maxChars = 20; //
+	if(which.value.length > maxChars){
+		alert("您出入的字数超多限制!");
+		// 超过限制的字数了就将 文本框中的内容按规定的字数 截取
+		which.value = which.value.substring(0,maxChars);
+		return false;
+	}else{
+		var curr = maxChars - which.value.length; //默认 减去 当前输入的
+		document.getElementById("sy").innerHTML = curr.toString();
+		return true;
+	}
+}
+function checkLength2(which) {
+	var maxChars2 = 100; //
+	if(which.value.length > maxChars2){
+		alert("您出入的字数超多限制!");
+		// 超过限制的字数了就将 文本框中的内容按规定的字数 截取
+		which.value = which.value.substring(0,maxChars2);
+		return false;
+	}else{
+		var curr = maxChars2 - which.value.length; //默认 减去 当前输入的
+		document.getElementById("sy2").innerHTML = curr.toString();
+		return true;
+	}
+}
+</script>

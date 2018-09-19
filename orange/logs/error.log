@@ -1,0 +1,161 @@
+2016/08/31 18:15:29 [error] 22547#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/08/31 18:18:23 [error] 22611#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/08/31 18:21:49 [error] 24976#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/08/31 19:13:42 [error] 25967#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/08/31 19:16:02 [error] 26025#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/08/31 19:25:47 [error] 26513#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/08/31 19:30:14 [error] 26618#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/08/31 19:34:49 [error] 26703#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/09/01 11:13:54 [error] 11110#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/09/01 11:24:28 [error] 11316#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/09/01 11:25:25 [error] 11358#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/09/01 11:33:37 [error] 11497#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/09/01 11:46:02 [error] 11743#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/09/01 11:46:08 [error] 11749#0: init_by_lua error: ./orange/lib/uuid.lua:34: libuuid.so: cannot open shared object file: No such file or directory
+stack traceback:
+	[C]: in function 'ffi_load'
+	./orange/lib/uuid.lua:34: in main chunk
+	[C]: in function 'require'
+	./orange/utils/utils.lua:6: in main chunk
+	[C]: in function 'require'
+	./orange/orange.lua:8: in main chunk
+	[C]: in function 'require'
+	init_by_lua:3: in main chunk
+2016/09/01 11:48:12 [emerg] 84443#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2016/09/01 11:49:38 [emerg] 84478#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2016/09/01 11:53:47 [emerg] 84589#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2016/09/01 11:54:33 [emerg] 84606#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2016/09/01 11:55:50 [emerg] 84629#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2016/09/01 11:56:46 [emerg] 84646#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2016/09/01 12:05:17 [error] 88069#0: [lua] mysql_db.lua:31: query(): failed to connect: Access denied for user 'root'@'localhost' (using password: NO): 1045 28000, context: ngx.timer
+2016/09/01 12:05:17 [error] 88069#0: [lua] mysql_db.lua:31: query(): failed to connect: Access denied for user 'root'@'localhost' (using password: NO): 1045 28000, context: ngx.timer
+2016/09/01 12:05:17 [error] 88069#0: [lua] mysql_db.lua:31: query(): failed to connect: Access denied for user 'root'@'localhost' (using password: NO): 1045 28000, context: ngx.timer
+2016/09/01 12:05:17 [error] 88069#0: [lua] mysql_db.lua:31: query(): failed to connect: Access denied for user 'root'@'localhost' (using password: NO): 1045 28000, context: ngx.timer
+2016/09/01 12:05:17 [error] 88069#0: [lua] mysql_db.lua:31: query(): failed to connect: Access denied for user 'root'@'localhost' (using password: NO): 1045 28000, context: ngx.timer
+2016/09/01 12:05:17 [error] 88069#0: [lua] mysql_db.lua:31: query(): failed to connect: Access denied for user 'root'@'localhost' (using password: NO): 1045 28000, context: ngx.timer
+2016/09/01 12:05:17 [error] 88069#0: [lua] mysql_db.lua:31: query(): failed to connect: Access denied for user 'root'@'localhost' (using password: NO): 1045 28000, context: ngx.timer
+2016/09/01 12:05:17 [error] 88069#0: [lua] mysql_db.lua:31: query(): failed to connect: Access denied for user 'root'@'localhost' (using password: NO): 1045 28000, context: ngx.timer
+2016/09/01 12:05:53 [info] 88069#0: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8887
+2016/12/07 15:22:22 [emerg] 22160#0: bind() to 0.0.0.0:8001 failed (48: Address already in use)
+2016/12/07 15:22:22 [emerg] 22160#0: bind() to 0.0.0.0:8001 failed (48: Address already in use)
+2016/12/07 15:22:22 [emerg] 22160#0: bind() to 0.0.0.0:8001 failed (48: Address already in use)
+2016/12/07 15:22:22 [emerg] 22160#0: bind() to 0.0.0.0:8001 failed (48: Address already in use)
+2016/12/07 15:22:22 [emerg] 22160#0: bind() to 0.0.0.0:8001 failed (48: Address already in use)
+2016/12/07 15:22:22 [emerg] 22160#0: still could not bind()

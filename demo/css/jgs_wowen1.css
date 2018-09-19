@@ -1,0 +1,39 @@
+
+/*我问初始页面*/
+.jgs_wowen1{text-align: center;padding-top:78px;}
+.jgs_wowen1 img{display:block;margin: 0 auto;width:125px;height:125px;}
+.jgs_wowen1 p{font-size:14px;color:#92959a;margin: 33px 0;}
+.jgs_wowen1 .bt1{background-color:#32c8c7;width:64vw;display:block;height:44px;line-height:44px;text-align:center;margin:0 auto;color:white;border-radius: 5px;}
+/*顶部导航 start*/
+.nav .nav-item a, .nav .nav-item a:visited{
+    color: #7a7d83;
+}
+nav.nav{
+    display: -webkit-box;
+    border-bottom: 1px solid #e5e5e5;
+}
+.nav .nav-item{
+    /*box-sizing: border-box;*/
+    /*-moz-box-flex:1.0; !* Firefox *!*/
+    -webkit-box-flex:1.0; /* Safari and Chrome */
+    /*box-flex:1.0;*/
+    text-align: center;
+    margin-bottom: -1px;
+    height:49px;
+    line-height: 49px;
+}
+
+
+
+.nav .nav-item.act{
+    border-bottom: 2px solid #32c8c7;
+}
+.nav .nav-item.act a{
+    color: #32c8c7;
+
+}
+
+.nav .nav-item a{
+    display: block;
+}
+/*顶部导航 end*/

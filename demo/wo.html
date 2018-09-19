@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0 minimal-ui">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes">
+    <title></title>
+    <link rel="stylesheet" href="css/weui.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/wo.css"/>
+</head>
+
+<body ontouchstart>
+<div class="container" id="container" style="background-color:#f0f0f0;">
+	<div class="me_box">
+		<div class="me_top">
+			<p>关注【机遇】才能接收提问、结算通知</p>
+			<p>长按识别，公众号：jiyu-jiyu123</p>
+			<img src="images/erweima.jpg"/>
+		</div>
+		<div class="me_center">
+			<img src="img/touxiang.jpg"/>
+			<strong>奥巴马爷爷</strong>
+			<p class="title">全球金融大亨，金氏集团董事长</p>
+			<p class="describe">可以问我宇宙之内任何问题，爱谁谁，一帮小市民</p>
+			<ul>
+				<li>·向我提问需要支付<span>￥200</span>已赚<span>￥136.5</span></li>
+				<li>·12人收听</li>
+				<li>·收入90%归你，每工作夜结算，自动入库微信钱包。</li>
+			</ul>
+			<div class="operation">
+				<a href="##" class="gai">修改资料</a>
+				<a href="##" class="ma">二维码</a>
+			</div>
+		</div>
+		<div class="me_bottom">
+			<ul>
+				<li class="l_1"><a href="##">我的分答主页</a></li>
+				<li class="l_2"><a href="##">我听</a></li>
+			</ul>
+		</div>
+		<div class="me_bottom me_bottom2">
+			<ul>
+				<li class="l_3"><a href="##">关于</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="weui_tab">
+	<div class="weui_navbar">
+		<a class="weui_navbar_item">
+			排行榜
+		</a>
+		<a class="weui_navbar_item">
+			我问
+		</a>
+		<a class="weui_navbar_item">
+			我答
+		</a>
+		<a class="weui_navbar_item">
+			收听
+		</a>
+		<a class="weui_navbar_item weui_bar_item_on">
+			我
+		</a>
+	</div>
+</div>
+<!--zepto库-->
+<script src="js/vendor/zepto.min.js"></script>
+<!--路由库-->
+<!--<script src="js/router.min.js"></script>-->
+<!--去掉移动端click300毫秒延迟-->
+<script src="js/vendor/fastclick.js"></script>
+<!--页面代码-->
+<script src="js/tmp.js"></script>
+</body>
+</html>
+<script>
+ $('.weui_navbar').on('click', '.weui_navbar_item', function () {
+                $(this).addClass('weui_bar_item_on').siblings('.weui_bar_item_on').removeClass('weui_bar_item_on');
+            });
+</script>

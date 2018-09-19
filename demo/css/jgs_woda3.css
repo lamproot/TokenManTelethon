@@ -1,0 +1,17 @@
+/*¿ªÍ¨ÎÒ´ð*/
+.jgs_fill{background-color:#f0f0f0;}
+.jgs_fill .jgs_fill_box{border-bottom:1px #e5e5e5 solid;}
+.jgs_fill .photo{text-align:center;padding:10px 0 12px;background-color:white;}
+.jgs_fill .photo img{width:60px;height:60px;border-radius:50%;margin:0 auto;display: block;margin-bottom:3px;}
+.jgs_fill .photo strong{font-weight:normal;font-size:15px;color:#494c53;}
+.jgs_fill .text{padding:6px 12px;border-top:1px #e5e5e5 solid;background-color:white;}
+.jgs_fill .text p{color:#494c53;font-size:15px;}
+.jgs_fill .text .textarea1{width:100%;padding:6px 0;color:#494c53;height:64px;line-height:20px;font-size:15px;resize: none;border:none;-webkit-appearance:none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent; }
+.jgs_fill .text .textarea2{width:100%;padding:6px 0;color:#494c53;height:100px;line-height:20px;font-size:15px;resize: none;border:none;-webkit-appearance:none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent; }
+.jgs_fill .words{background-color:white;color:#92959a;font-size:14px;height:42px;line-height:30px;padding:0 12px;border-top:1px #e5e5e5 solid;}
+.jgs_fill .words span{color:#3987d5;}
+.jgs_fill .price{padding:33px 12px 10px;margin-top:9px;background:white;border-top:1px #e5e5e5 solid;}
+.jgs_fill .price p{color:#92959c;font-size:14px;}
+.jgs_fill .price p input{color:#f65177;margin:0 5px;font-size:16px;width:60px;height:33px;line-height:33px;background-color:#f0f0f0;border-radius:4px;border:none;text-align:center;}
+.jgs_fill .price button{color:white;font-size:16px;width:64vw;height:44px;background-color:#32c8c7;border:none;border-radius:4px;margin:33px auto 0;display:block;}
+

@@ -1,0 +1,25 @@
+/*Œ“*/
+
+.me_box .me_top{padding:16px 0 21px;background:white;border-bottom:1px #e5e5e5 solid;}
+.me_box .me_top p{color:#7a7d83;font-size:14px;line-height:24px;text-align:center;}
+.me_box .me_top img{width:105px;height:105px;display:block;margin:16px auto 0;padding:7.5px;background-color:#f0f0f0;}
+.me_box .me_center{background:white;padding:18px 12px 25px;margin-top:9px;border-top:1px #e5e5e5 solid;border-bottom:1px #e5e5e5 solid;}
+.me_box .me_center img{width:60px;height:60px;display:block;margin:0 auto;border-radius:50%;}
+.me_box .me_center strong{margin-top:5px;color:#494c53;font-size:15px;font-weight:normal;display:block;text-align:center;}
+.me_box .me_center .title{font-size:13px;color:#494c53;text-align:center;}
+.me_box .me_center .describe{margin-top:13px;font-size:15px;color:#494c53;}
+.me_box .me_center ul{margin-top:11px;}
+.me_box .me_center ul li{color:#92959c;font-size:14px;line-height:24px;}
+.me_box .me_center ul li span{color:#f65177;margin:0 8px;}
+.me_box .me_center .operation{text-align:center;margin-top:20px;}
+.me_box .me_center .operation a{display:inline-block;border:1px #32c8c7 solid;border-radius:15px;width:125px;height:30px;line-height:30px;font-size:13px;color:#32c8c7;}
+.me_box .me_center .operation .gai{background:url(../images/gai.png) 25px center no-repeat;background-size:16px 16px;text-indent:36px;margin-right:21px;}
+.me_box .me_center .operation .ma{background:url(../images/ma.png) 31px center no-repeat;background-size:16px 16px;text-indent:36px;}
+.me_box .me_bottom{margin-top:9px;background:white;margin-top:9px;border-top:1px #e5e5e5 solid;border-bottom:1px #e5e5e5 solid;}
+.me_box .me_bottom ul{padding:0px 12px;}
+.me_box .me_bottom ul li{height:44px;line-height:44px;} 
+.me_box .me_bottom ul .l_1{border-bottom:1px #e5e5e5 solid;background:url(../images/l_1.png) 0 center no-repeat;background-size:16px 16px;}
+.me_box .me_bottom ul .l_2{background:url(../images/l_2.png) 0 center no-repeat;background-size:16px 16px;}
+.me_box .me_bottom ul .l_3{background:url(../images/l_3.png) 0 center no-repeat;background-size:16px 16px;}
+.me_box .me_bottom ul li a{text-indent:28px;color:#494c53;font-size:15px;display:block;}
+.me_box .me_bottom2{}
